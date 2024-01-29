@@ -5,20 +5,20 @@ local Window = OrionLib:MakeWindow({Name = "tổng hợp scrip king legacy", Hid
 OrionLib:MakeNotification({
 	Name = "king legacy hub",
 	Content = "Beta Version",
-	Image = "rbxassetid://16118250951",
+	Image = "rbxassetid://16161340777",
 	Time = 5
 })
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
 	Content = "Beta Version",
-	Image = "rbxassetid://16118250951",
+	Image = "rbxassetid://16161340777",
 	Time = 5
 })
 
 local Tab = Window:MakeTab({
-	Name = "Official / Main 🍎",
-	Icon = "rbxassetid://16118250951",
+	Name = "Official / Main 🐉",
+	Icon = "rbxassetid://16161340777",
 	PremiumOnly = false})
 	
 	Tab:AddLabel("king legacy Script Made By bitenhehe")
@@ -31,73 +31,42 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "Misc Script 🍎"
+	Name = "Misc Script 🐉"
 })
 
 Tab:AddButton({
-	Name = "Mobile Keyboard 🌽",
+	Name = "Mobile Keyboard 🐉",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Fly Script V3 🌽",
+	Name = "Fly Script V3 🐉",
 	Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
   	end    
 })
 
-Tab:AddButton({
-	Name = "Anti Lag 🌽",
-	Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Anti Afk 🌽",
-	Callback = function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua'),true))()
-  	end    
-})
 
 local Tab = Window:MakeTab({
-	Name = "New Update 🍎",
-	Icon = "rbxassetid://16118250951",
-	PremiumOnly = false})
-
-local Section = Tab:AddSection({
-	Name = "New Update"
-})
-
-Tab:AddLabel("--------- Version 3 News ---------")
-Tab:AddLabel("[ + ] Added Script Games Tab")
-Tab:AddLabel("[ + ] Added Script Hub Tab")
-Tab:AddLabel("[ + ] Added Executor UI Tab")
-Tab:AddLabel("[ + ] Added RTX Script ( Low To Ultra ) In Misc Tab")
-Tab:AddLabel("[ + ] Added FE Script In Misc Tab")
-Tab:AddLabel("[ + ] Added Misc Script In Misc Tab")
-Tab:AddLabel("[ + ] Christmas Decorations ")
-
-local Tab = Window:MakeTab({
-	Name = "Script Games 🍎",
-	Icon = "rbxassetid://16118250951",
+	Name = "Script Games 🐉",
+	Icon = "rbxassetid://16161340777",
 	PremiumOnly = false})
 	
 local Section = Tab:AddSection({
-	Name = "king legacy🍎"
+	Name = "king legacy🐉"
 })
 
 Tab:AddButton({
-	Name = "AdelOnTheTop 🌽",
+	Name = "AdelOnTheTop 🐉",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "DookDekDEE 🌽",
+	Name = "DookDekDEE 🐉",
 	Callback = function()
       		repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
@@ -105,21 +74,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main
 })
 
 Tab:AddButton({
-	Name = "zen hub 🌽",
+	Name = "zen hub 🐉",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Winnable 🌽",
+	Name = "Winnable 🐉",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader"))
   	end    
 })
 
 Tab:AddButton({
-	Name = "Hyper  🌽",
+	Name = "Hyper  🐉",
 	Callback = function()
       		repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
